@@ -1,0 +1,81 @@
+body {
+    color: #ffffff;
+text-align:center;
+font-family: 'Happy Monkey', cursive;
+background:linear-gradient(#a2d2ff, pink);
+
+}
+#face {
+    width:150px;
+    border: 5px solid #EFB0C9;
+    border-radius:50%
+    
+}
+h1, h2, h4 {
+    text-shadow: 0 0 2px black;
+}
+#bday-age {
+    background:#EFB0C9;
+    padding: 7px;
+    border-radius: 5px;
+    margin:7px 0 10px 0;
+}
+#bday-date {
+    background:#EFB0C9;
+    padding: 7px;
+    border-radius: 5px;
+    margin: 0px;
+}
+#header {
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+}
+.gift-img {
+    background-image: url("https://static.turbosquid.com/Preview/001201/306/P8/3D-gift-box-white-3-model_600.jpg");
+    background-size: cover;
+    height:400px;
+    width: 400px;
+    margin: 0 auto;
+    border: 6px solid white;   
+    border-radius: 8px; 
+}
+#gift-img-happy:hover {
+    background-image: url("https://media.giphy.com/media/Lr3UeH9tYu3qJtsSUg/giphy.gif");
+    background-size:contain;
+}
+#gift-img-hot:hover {
+    background-image: url("https://media.giphy.com/media/LyJ6KPlrFdKnK/giphy.gif");
+}
+#gift-img-genius:hover {
+    background-image: url("https://media.giphy.com/media/vNr3DRaqTZ6mWYfXv0/giphy.gif");
+    background-size:contain;
+}
+#gift-img-badass:hover {
+    background-image: url("https://media.giphy.com/media/l4KibWpBGWchSqCRy/giphy.gif");
+}
+#gift-img-cheers{
+    height:200px;
+}
+#gift-img-cheers:hover {
+    background-image: url("https://media.giphy.com/media/KBDzqHidthiHbeus6B/giphy.gif");
+}
+
+.gift-section{
+    margin-top:50px;
+}
+.gift-title{
+    margin-bottom: 10px;
+}
+.gift-hint {
+    margin-top:0;
+    text-shadow: 0 0 2px black;
+}
+#footer {
+    font-style: italic;
+    width:400px;
+    margin: 40px auto 20px;
+}
+a{
+    color:white;
+}
